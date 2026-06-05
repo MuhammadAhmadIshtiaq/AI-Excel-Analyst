@@ -12,7 +12,7 @@ import builtins
 # ─────────────────────────────────────────────
 # 🔑  GEMINI SETUP
 # ─────────────────────────────────────────────
-genai.configure(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyBHguB0sSCvFb9D1KqHkzcRZtoM6IcwyCo"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY", ""))
 
 _model = genai.GenerativeModel("gemini-2.5-flash")
 
